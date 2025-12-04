@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 <!--
 **Vinay-kumar1234/Vinay-kumar1234** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <!-- Snake Animation -->
+> “Good engineering isn’t just writing code—it’s reducing complexity without losing clarity.”
 <div align="center">
-    
-  ![snake gif](https://github.com//Vinay-kumar1234/Vinay-kumar1234/blob/output/github-snake-dark.svg)
+  <img src="https://raw.githubusercontent.com/Vinay-kumar1234/output/github-snake-dark.svg" alt="snake animation" width="100%" />
 </div>
