@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 <!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Vinay-kumar1234/output/github-snake.svg" width="100%" alt="github snake animation"/>
+  <img src="https://github.com/Vinay-kumar1234/Vinay-kumar1234/blob/output/github-snake-dark.svg" width="100%" alt="github snake animation"/>
 </div>
