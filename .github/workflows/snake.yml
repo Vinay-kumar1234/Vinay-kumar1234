@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs every midnight
+    - cron: "0 0 * * *"   # Runs every midnight UTC
   workflow_dispatch:
   push:
     branches:
@@ -21,13 +21,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate snake animations including all repos activity
-      - name: Generate GitHub Contribution Snake
+      # Step 2: Generate GitHub Contribution Snake
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # NEW FLAG: show contributions from ALL repos, branches, events
-          include_all_contributions: true
+          include_ignored_repos: true         # Enables all repos!
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -35,13 +34,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: Deploy generated snake files to output branch
-      - name: Deploy to output branch
+      # Step 3: Deploy snake files to the output branch
+      - name: Deploy Snake Animations
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
           publish_branch: output
+          publish_dir: ./dist
           user_name: github-actions
           user_email: github-actions@github.com
           commit_message: "Update snake animation [skip ci]"
