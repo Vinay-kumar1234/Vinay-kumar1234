@@ -21,6 +21,7 @@ Recently completed my Master’s in Computer Science, and I focus on delivering 
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![AZURE](https://img.shields.io/badge/Azure-2496ED?style=for-the-badge&logo=AZURE&logoColor=white)
 
 
 ## 🌐 Socials:
