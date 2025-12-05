@@ -22,6 +22,11 @@ Recently completed my Master’s in Computer Science, and I focus on delivering 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![AZURE](https://img.shields.io/badge/Azure-2496ED?style=for-the-badge&logo=AZURE&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Artificial Intelligence](https://img.shields.io/badge/AI-6A5ACD?style=for-the-badge&logo=semantic-web&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![SLMs](https://img.shields.io/badge/SLMs-4B0082?style=for-the-badge&logo=ai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-2E8B57?style=for-the-badge&logo=protocol&logoColor=white)
 
 
 ## 🌐 Socials:
