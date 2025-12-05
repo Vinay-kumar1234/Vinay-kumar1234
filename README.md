@@ -50,6 +50,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <!-- Snake Animation -->
+## Contributions:
 <div align="center">
   <img src="https://github.com/Vinay-kumar1234/Vinay-kumar1234/blob/output/github-snake-dark.svg" width="100%" alt="github snake animation"/>
 </div>
