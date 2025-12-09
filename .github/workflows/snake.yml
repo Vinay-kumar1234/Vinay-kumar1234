@@ -14,19 +14,15 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate GitHub Contribution Snake
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          include_ignored_repos: true         # Enables all repos!
+          github_user_name: "Vinay-kumar1234"     # ⭐ FIXED — use your exact username
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -34,7 +30,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: Deploy snake files to the output branch
       - name: Deploy Snake Animations
         uses: peaceiris/actions-gh-pages@v3
         with:
